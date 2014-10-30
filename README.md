@@ -35,9 +35,9 @@
 ## 文档
 
 * Browser Diet [【中文】](http://browserdiet.com/zh/) [【英文】](http://browserdiet.com/en/) - 关于前端性能的协同指南。
-* PageSpeed Insights 规则 [【中文】](https://developers.google.com/speed/docs/insights/rules?hl=zh-cn) [【英文】] - PageSpeed 小组创建的一份指南。
-* 网站优化加速最佳实践 【中文】(http://blog.csdn.net/zhoudaxia/article/details/24182831) [【英文】](https://developer.yahoo.com/performance/rules.html) - 雅虎 Exceptional Performance 小组出品的最佳实践，包括 7 个目录总共 35 条。
-* Image Optimization Techniques 【英文】(http://www.imageoptimization.info/) - 一组优化图片和提高网页加载速度的工具和技术。
+* PageSpeed Insights 规则 [【中文】](https://developers.google.com/speed/docs/insights/rules?hl=zh-cn) [【英文】](https://developers.google.com/speed/docs/insights/rules) - PageSpeed 小组创建的一份指南。
+* 网站优化加速最佳实践 [【中文】](http://blog.csdn.net/zhoudaxia/article/details/24182831) [【英文】](https://developer.yahoo.com/performance/rules.html) - 雅虎 Exceptional Performance 小组出品的最佳实践，包括 7 个目录总共 35 条。
+* Image Optimization Techniques [【英文】](http://www.imageoptimization.info/) - 一组优化图片和提高网页加载速度的工具和技术。
 
 
 ## 博客
