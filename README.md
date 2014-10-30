@@ -1,6 +1,7 @@
 # Awesome WPO
 
-前端性能优化资源列表，翻译自 https://github.com/davidsonfellipe/awesome-wpo， 加入一些中文资源。欢迎大家添加内容！
+前端性能优化资源列表，多数为中文，包括少量的优秀英文资源。
+Inspired by https://github.com/davidsonfellipe/awesome-wpo (英文前端性能优化资源列表)。欢迎大家添加内容！
 
 - [文档](#documentation)
 - [博客](#blogs)
@@ -35,36 +36,23 @@
 ## 文档
 
 * Browser Diet [【中文】](http://browserdiet.com/zh/) [【英文】](http://browserdiet.com/en/) - 关于前端性能的协同指南。
-* PageSpeed Insights 规则 [【中文】](https://developers.google.com/speed/docs/insights/rules?hl=zh-cn) [【英文】](https://developers.google.com/speed/docs/insights/rules) - PageSpeed 小组创建的一份指南。
+* PageSpeed Insights 规则 [【中文(墙外)】](https://developers.google.com/speed/docs/insights/rules?hl=zh-cn) [【英文(墙外)】](https://developers.google.com/speed/docs/insights/rules) - PageSpeed 小组创建的一份指南。
 * 网站优化加速最佳实践 [【中文】](http://blog.csdn.net/zhoudaxia/article/details/24182831) [【英文】](https://developer.yahoo.com/performance/rules.html) - 雅虎 Exceptional Performance 小组出品的最佳实践，包括 7 个目录总共 35 条。
 * Image Optimization Techniques [【英文】](http://www.imageoptimization.info/) - 一组优化图片和提高网页加载速度的工具和技术。
 
 
 ## 博客
 
-* [Performance Calendar](http://calendar.perfplanet.com/2013/) - The speed geek's favorite time of the year.
-* [Web Performance Today](http://www.webperformancetoday.com/) - Great posts written by @tameverts.
-
+欢迎补充优秀中文博客。
 
 ## 文章
 
-* [Preventing 'layout thrashing'](http://wilsonpage.co.uk/preventing-layout-thrashing/) - Wilson Page
-* [JavaScript Memory Profiling](https://developer.chrome.com/devtools/docs/javascript-memory-profiling)
-* [Jank Busting for Better Rendering Performance](http://www.html5rocks.com/en/tutorials/speed/rendering/) - Tom Wiltzius
-* [Scrolling Performance](http://www.html5rocks.com/en/tutorials/speed/scrolling/) - Paul Lewis
-* [Getting started with the Picture Element](http://deanhume.com/Home/BlogPost/getting-started-with-the-picture-element/8109) - Dean Hume
-* [Improve Page Load Times With DNS Prefetching](http://www.deanhume.com/Home/BlogPost/improve-page-load-times-with-dns-prefetching/80) - Dean Hume
-* [Web Page Performance - Profiling paint times](http://www.deanhume.com/Home/BlogPost/web-page-performance---profiling-paint-times/91) - Dean Hume
+欢迎补充优秀中文文章。
 
 
 ## 演讲
-> Best talks about WPO
 
-* [CSS Performance Tooling](https://www.youtube.com/watch?v=FEs2jgZBaQA) - CSS Performance Tooling (Addy Osmani).
-* [Performance Tooling](https://www.youtube.com/watch?v=HAqjyCH_LOE) - Performance Tooling (Paul Irish).
-* [A developer's guide to rendering performance](http://vimeo.com/77591536) - Paul Lewis
-* [Jank Free: Chrome Rendering Performance](http://vimeo.com/77591536) - Nat Duca, Tom Wiltzius
-
+欢迎补充优秀中文演讲。
 
 ## 分析器
 
@@ -87,7 +75,7 @@
 * [CSS-perf](https://github.com/mdo/css-perf) - Completely unscientific way of testing CSS performance. Most of these tests will revolve around methodologies and techniques for determining effective CSS architecture. Put another way, I want to know what works best given a particular comparison of CSS strategies.
 
 ## Javascript 性能测试
-> A set of tools for creating test cases and compare different implementations in JavaScript.
+> 用于创建测试用例、比较不同 JavaScript 实现的工具集。
 
 * [JSPerf](http://jsperf.com/) - jsPerf aims to provide an easy way to create and share test cases, comparing the performance of different JavaScript snippets by running benchmarks.
 * [Benchmark.js](http://benchmarkjs.com/) - A robust benchmarking library that works on nearly all JavaScript platforms, supports high-resolution timers, and returns statistically significant results.
@@ -106,6 +94,15 @@
 
 
 ## CDN
+
+### 国内
+
+* [【七牛】开放静态文件 CDN](http://www.staticfile.org/) 提供了很多优秀的开源前端类库。
+* [【又拍】常用JavaScript库CDN服务](http://jscdn.upai.com/) 提供了一些常用的JavaScript库，包括 jQuery, MooTools, Modernizr, Dojo 和 Ember.js.
+* [【360】360网站卫士常用前端公共库CDN服务](http://libs.useso.com/) 提供了由一些常用前端公共库以及和谐使用Google公共库&字体库的调用方法。
+* [【百度】CDN公共库](http://openapi.baidu.com/wiki/index.php?title=docs/cplat/libs) 一些常用的前端类库。
+
+### 国外
 
 * [jsDelivr](https://github.com/jsdelivr/jsdelivr) - Similar to Google Hosted Libraries, jsDelivr is an open source CDN that allows developers to host their own projects and anyone to link to our hosted files in their websites.
 * [Google Hosted Libraries](https://developers.google.com/speed/libraries/) - Google Hosted Libraries is a content distribution network for the most popular, open-source JavaScript libraries.
@@ -128,20 +125,20 @@
 
 
 ## 图片优化器
->  How to remove all this unnecessary data and give you a file without degrading quality.
+> 如何在不降低质量的情况下移除所有无用数据。
 
-* [Grunt-smushit](https://github.com/heldr/grunt-smushit) - Grunt plugin to remove unnecessary bytes of PNG and JPG using Yahoo Smushit.
-* [Gulp-smushit](https://github.com/heldr/gulp-smushit) - Gulp plugin to optimize PNG and JPG using Yahoo Smushit. Made on top of smosh.
-* [Smush.it](http://www.smushit.com/ysmush.it/) - Smush.it uses optimization techniques specific to image format to remove unnecessary bytes from image files. It is a "lossless" tool, which means it optimizes the images without changing their look or visual quality.
-* [Imagemin](https://github.com/imagemin/imagemin) - Minify images seamlessly with Node.js.
-* [Sharp](https://github.com/lovell/sharp) - The typical use case for this high speed Node.js module is to convert large images of many formats to smaller, web-friendly JPEG, PNG and WebP images of varying dimensions.
-* [Gm](https://github.com/aheckmann/gm) - GraphicsMagick and ImageMagick for node.
-* [Exexif](https://github.com/h4cc/awesome-elixir) - Pure elixir library to extract tiff and exif metadata from jpeg files.
-* [OptiPNG](http://optipng.sourceforge.net/) - OptiPNG is a PNG optimizer that recompresses image files to a smaller size, without losing any information.
-* [Grunt-contrib-imagemin](https://github.com/gruntjs/grunt-contrib-imagemin) - Minify PNG and JPEG images for Grunt.
-* [Gulp-imagemin](https://github.com/sindresorhus/gulp-imagemin) - Minify PNG, JPEG, GIF and SVG images with imagemin for Gulp.
-* [Grunt-webp](https://github.com/somerandomdude/grunt-webp) - Convert your images to WebP format.
-* [Gulp-webp](https://github.com/sindresorhus/gulp-webp) - Convert images to WebP for Gulp.
+* [Grunt-smushit](https://github.com/heldr/grunt-smushit) - 通过雅虎 Smushit 工具来移除 PNG 和 JPG 图片中多余字节的 Grunt 插件。 
+* [Gulp-smushit](https://github.com/heldr/gulp-smushit) - 通过雅虎 Smushit 工具来移除 PNG 和 JPG 图片中多余字节的 Gulp 插件。 
+* [Smush.it](http://www.smushit.com/ysmush.it/) - 对于不同的图片格式，Smush.it 使用特定的技术来移除图片中的多余字节。它是一个“无损”压缩工具，不会改变图片的显示效果和质量。
+* [Imagemin](https://github.com/imagemin/imagemin) - 使用 Node.js 无缝地压缩图片。
+* [Sharp](https://github.com/lovell/sharp) - 这个高速的 Node.js 模块的典型用途是将各种格式的大图片转换成不同大小的 “web 友好” 的 JPEG, PNG 和 WebP 图片。
+* [Gm](https://github.com/aheckmann/gm) - Node.js 里的 GraphicsMagick 和 ImageMagick。
+* [Exexif](https://github.com/h4cc/awesome-elixir) - 用于从 jpeg 文件中提取 tiff 和 exif 元数据的纯 Elixir(Erlang 虚拟机上的一种类 Ruby 语言) 库。
+* [OptiPNG](http://optipng.sourceforge.net/) - OptiPNG 是一个 PNG 优化器，能在不损失信息的情况下将 PNG 重新压缩到更小的尺寸。
+* [Grunt-contrib-imagemin](https://github.com/gruntjs/grunt-contrib-imagemin) - 在 Grunt 中压缩 PNG 和 JPEG 图片。
+* [Gulp-imagemin](https://github.com/sindresorhus/gulp-imagemin) - 在 Gulp 中压缩 PNG 和 JPEG 图片。
+* [Grunt-webp](https://github.com/somerandomdude/grunt-webp) - 在 Grunt 中将图片转换为 WebP 格式。
+* [Gulp-webp](https://github.com/sindresorhus/gulp-webp) - 在 Gulp 中将图片转换为 WebP 格式。
 * [Imageoptim](https://imageoptim.com/) - Free app that makes images take up less disk space and load faster, without sacrificing quality. It optimizes compression parameters, removes junk metadata and unnecessary color profiles.
 * [Grunt-imageoptim](https://github.com/JamieMason/grunt-imageoptim) - Make ImageOptim, ImageAlpha and JPEGmini part of your automated build process.
 * [ImageOptim-CLI](https://github.com/JamieMason/ImageOptim-CLI) - Automates ImageOptim, ImageAlpha, and JPEGmini for Mac to make batch optimisation of images part of your automated build process.
@@ -158,6 +155,7 @@
 
 ## 加载器
 
+* [Sea.js](http://seajs.org/docs/) - 阿里出品的前端资源加载器。
 * [HeadJS](https://github.com/headjs/headjs)- The only script in your HEAD.
  for Responsive Design, Feature Detections, and Resource Loading.
 * [RequireJS](http://requirejs.org/) - RequireJS is a JavaScript file and module loader. It is optimized for in-browser use, but it can be used in other JavaScript environments, like Rhino and Node.
