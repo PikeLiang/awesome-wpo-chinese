@@ -12,7 +12,7 @@
 - [JavaScript 性能测试](#benchmark---javascript)
 - [书签栏工具](#bookmarklets)
 - [CDN](#cdn)
-- [CDN 检测](#cdn---monitor)
+- [CDN 监测](#cdn---monitor)
 - [CDN 工具](#cdn---utilities)
 - [图片优化器](#image-optimizers)
 - [加载器](#loaders)
